@@ -6,7 +6,6 @@ print(simple_separator() == '**********')  # True
 
 
 def long_separator(count):
-    count = int(input('Количество звёздочек:'))
     print('*'*count)
     pass
 print(long_separator(3) == '***')  # True
@@ -14,8 +13,6 @@ print(long_separator(4) == '****')  # True
 
 
 def separator(simbol, count):
-  simbol = input('Введите символ:')
-  count = int(input('Количество символов:'))
   result = print(simbol*count)
   return result
 
